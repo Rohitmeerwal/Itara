@@ -47,29 +47,12 @@ const Footer = () => {
               <p className="font-medium">Company</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm">
                 <Link
-                  href="/"
+                  href="/about"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
                   About
                 </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Meet the Team
-                </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  History
-                </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Careers
-                </Link>
+                
               </nav>
             </div>
             <div>
@@ -79,55 +62,33 @@ const Footer = () => {
                   href="/"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  Coaching
+                  Premium Marble
                 </Link>
                 <Link
                   href="/"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  Company Review
+                  Granite
                 </Link>
                 <Link
                   href="/"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  Accounts Review
+                  Installation
                 </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  HR Consulting
-                </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  SEO Optimisation
-                </Link>
+                
               </nav>
             </div>
             <div>
               <p className="font-medium">Helpful Links</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm ">
                 <Link
-                  href="/"
+                  href="/contact"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
                   Contact
                 </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  FAQs
-                </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Live Chat
-                </Link>
+                
               </nav>
             </div>
             <div>
@@ -151,19 +112,16 @@ const Footer = () => {
                 >
                   Returns Policy
                 </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Accessibility
-                </Link>
+                
               </nav>
             </div>
           </div>
         </div>
         <p className="mt-8 text-xs">© 2024 ITARA - All rights reserved</p>
       </div>
-      <h2 className="mt-2  items-end">Created with ❤️ by Piyush</h2>
+      <a href="https://www.linkedin.com/in/piyush-verma-883a26248/" className="mt-2  items-end">
+        Created with ❤️ by Piyush
+      </a>
     </footer>
   );
 };
