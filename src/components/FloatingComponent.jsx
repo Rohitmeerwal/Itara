@@ -32,18 +32,18 @@ export default function FloatingComponent() {
     >
       <div className="flex gap-2 bg-white px-4 py-2 rounded-lg shadow-lg ">
         <button className="flex items-center bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-bold py-2 px-2 md:py-3 md:px-6 rounded focus:outline-none focus:shadow-outline shadow-lg">
-          <Link href="mailto:itaraindia@gmail.com" className="flex items-center">
+          <a href="mailto:itaraindia@gmail.com" className="flex items-center">
             <FaMailBulk className="mr-2" /> Enquire now
-          </Link>
+          </a>
         </button>
 
         <button className="flex bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-2 px-4 md:py-3 md:px-6 rounded focus:outline-none focus:shadow-outline gap-1 justify-between items-center shadow-lg">
-          <Link href="tel:+918126111553" className="flex items-center">
+          <a href="tel:+918126111553" className="flex items-center">
             <div className="inline-block rotate-90 mt-1">
               <FaPhone className="mr-2" />
             </div>
             Call
-          </Link>
+          </a>
         </button>
       </div>
     </motion.div>

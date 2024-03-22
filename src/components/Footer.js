@@ -21,25 +21,24 @@ const Footer = () => {
             Elevate your space with ITARA's premier Indian marble and granite. Experience timeless elegance and superior quality for your projects.
             </p>
             <div className="flex mt-8 space-x-6">
-              <Link
+              <a
                 href="/"
                 target="_blank"
               >
                 <FacebookOutlinedIcon className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
-              </Link>
-              <Link
+              </a>
+              <a
                 href="mailto:itaraindia@gmail.com"
-                target="_blank"
               >
                 <MailOutlined className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
-              </Link>
+              </a>
               
-              <Link
+              <a
                 href="https://www.instagram.com/itaraindia/"
                 target="_blank"
               >
                 <InstagramIcon className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
-              </Link>
+              </a>
             </div>
           </div>
 
