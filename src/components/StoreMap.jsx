@@ -8,7 +8,7 @@ export default function StoreMap() {
             <h1 className='text-2xl font-bold'>Store Location</h1>
             <div className="flex items-center gap-2 text-sm">
                 <FaMapMarkerAlt />
-                <p>123 Store St, City, State, Zip Code</p>
+                <p>63/54, chawli near COD, Agra</p>
             </div>
             <div className="flex items-center gap-2 text-sm">
                 <FaPhoneAlt />
