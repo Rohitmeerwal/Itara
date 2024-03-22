@@ -13,7 +13,6 @@ export default function ProductCard() {
           </figcaption>
           <a href="#" className="absolute top-0 left-0 w-full h-full"></a>
         </figure>
-        {/* Repeat the above figure for other images */}
       </div>
     </section>
     </div>

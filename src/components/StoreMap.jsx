@@ -12,7 +12,7 @@ export default function StoreMap() {
             </div>
             <div className="flex items-center gap-2 text-sm">
                 <FaPhoneAlt />
-                <p>(123) 456-7890</p>
+                <p>(+91) 8126111553</p>
             </div>
             <div className="flex items-center gap-2 text-sm">
                 <FaStar />

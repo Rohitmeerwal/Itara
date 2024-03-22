@@ -6,6 +6,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import Link from "next/link";
+import { MailOutlined } from "@mui/icons-material";
 
 const Footer = () => {
   return (
@@ -26,20 +27,15 @@ const Footer = () => {
               >
                 <FacebookOutlinedIcon className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
               </Link>
-              <Link href="/" target="_blank">
-                <GitHubIcon className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
-              </Link>
               <Link
-                href="/"
+                href="mailto:itaraindia@gmail.com"
                 target="_blank"
               >
-                <LinkedInIcon className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
+                <MailOutlined className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
               </Link>
-              <Link href="/" target="_blank">
-                <TwitterIcon className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
-              </Link>
+              
               <Link
-                href="/"
+                href="https://www.instagram.com/itaraindia/"
                 target="_blank"
               >
                 <InstagramIcon className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
