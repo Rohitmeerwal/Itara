@@ -5,7 +5,7 @@ export default function StoreMap() {
   return (
     <div className='w-full flex items-center justify-evenly flex-wrap gap-10 '>
         <div className='flex flex-col gap-4'>
-            <h1 className='text-2xl font-bold'>Store Location</h1>
+            <h1 className='text-2xl font-bold'>Location: </h1>
             <div className="flex items-center gap-2 text-sm">
                 <FaMapMarkerAlt />
                 <p>63/54, chawli near COD, Agra</p>
