@@ -5,8 +5,8 @@ import Image from 'next/image'
 export default function ProductsPage() {
   return (
     <div className='flex flex-col justify-center mt-10'>
-    <h1 className=' text-5xl text-red-700 text-center  mt-10 font-extrabold'>Check Out Our Products</h1>
-    <h1 className='text-4xl text-blue-700 text-center  mt-10 font-extrabold'>Granite</h1>
+    <h1 className=' text-5xl text-red-700 text-center  mt-10 font-extrabold '>Check Out Our Products</h1>
+    <h1 className='text-4xl text-white shadow-lg py-5 text-center mt-10 font-extrabold' style={{ backgroundImage: 'linear-gradient(to right, #ff0000, #ff00ff)' }}>Granite</h1>
     <div className=' flex flex-wrap mt-5 justify-center'>
       <ProductCard imageUrl={"/desert-green-granite.jpg"} title={"Desert Green Granite"}/>
       <ProductCard imageUrl={"/forest-black-granite (1).jpg"} title={"Forest Black Granite"}/>
@@ -26,7 +26,8 @@ export default function ProductsPage() {
       <ProductCard imageUrl={"/rblack.jpg"} title={"R Black Granite"}/>
       <ProductCard imageUrl={"/tigerbrownmulti.jpg"} title={"Tiger Brown Multi Granite"}/>
     </div>
-    <h1 className='text-4xl text-blue-700 text-center  mt-10 font-extrabold'>Marble</h1>
+    <h1 className='text-4xl text-white shadow-lg py-5 text-center mt-10 font-extrabold' style={{ backgroundImage: 'linear-gradient(to right, #ff0000, #ff00ff)' }}>Marble</h1>
+
     <div className=' flex flex-wrap mt-5 justify-center'>
       <ProductCard imageUrl={"/aarnawhitemarble.jpg"} title={"Aarna White Marble"}/>
       <ProductCard imageUrl={"/agariyawhitemarble.jpg"} title={"Agariya White Marble"}/>
