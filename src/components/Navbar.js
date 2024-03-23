@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import Link from "next/link";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
@@ -11,6 +11,7 @@ import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import LightModeRoundedIcon from "@mui/icons-material/LightModeRounded";
 import { useEffect, useRef, useState } from "react";
 import { useTheme } from "next-themes";
+import { light } from "@mui/material/styles/createPalette";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -37,12 +38,15 @@ const Navbar = () => {
         theme === "dark" ? "bg-[#121212]" : "bg-white text-black"
       } w-full z-50 fixed top-0 left-0 py-4 mb-10  shadow-md shadow-[#17171786]`}
     >
-      <div className="container px-5 md:px-16 flex items-center justify-between mx-auto">
+      <div className="container px-5 md:px-16 flex items-center justify-between mx-auto ">
         <Link href={"/"}>
-          <h2 className="text-3xl">
-            <span className="text-rose-600">I</span>TARA.
-          </h2>
-        </Link>
+      {/* Conditionally render logo based on the theme */}
+      {theme === "dark" ? (
+        <img src="/logo-light.png" className="h-10" alt="Light Logo" />
+      ) : (
+        <img src="/logo-dark.png" className="h-10" alt="Dark Logo" />
+      )}
+    </Link>
 
         <div>
           <ul

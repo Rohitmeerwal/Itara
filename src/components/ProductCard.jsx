@@ -1,20 +1,19 @@
-import React from 'react'
+import React from 'react';
 
-export default function ProductCard() {
+const ProductCard = ({ imageUrl, title }) => {
   return (
-    <div className='mt-20'>
-      <section className="section-3">
-      
-      <div className="flex flex-wrap justify-center h-[20rem] w-[15rem]">
-        <figure className="figure mx-4 my-6 relative overflow-hidden rounded-lg">
-          <img src="https://images.pexels.com/photos/87477/winter-snow-tree-den-87477.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" className="w-full h-auto" alt="Winter Collection" />
-          <figcaption className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-transparent to-transparent text-white py-2 px-4">
-            <h3 className="text-[#196845]  font-extrabold text-2xl">Collection</h3>
-          </figcaption>
-          <a href="#" className="absolute top-0 left-0 w-full h-full"></a>
-        </figure>
+    <div className="max-w-sm rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transform transition-transform hover:scale-105 h-80 w-72 relative m-5">
+      <div className="aspect-w-9 aspect-h-16 relative">
+        <img className="object-cover object-center w-full h-full" src={imageUrl} alt="Card" style={{ width: '400px', height: '400px' }} />
+        <div className="absolute inset-0 bg-black opacity-0 hover:opacity-60 transition-opacity flex justify-center items-center">
+          <a href="tel:+1234567890" className="text-white text-lg">Enquire Now</a>
+        </div>
       </div>
-    </section>
+      <div className="px-6 py-4 absolute bottom-0 left-0 w-full">
+        <div className="font-bold text-xl text-white mb-2">{title}</div>
+      </div>
     </div>
-  )
-}
+  );
+};
+
+export default ProductCard;
