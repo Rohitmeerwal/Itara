@@ -19,6 +19,12 @@ export default function ProductsPage() {
       <ProductCard imageUrl={"/viscon-white-granite.jpg"} title={"Viscon White Granite"}/>
       <ProductCard imageUrl={"/kotdablack.jpg"} title={"Kotda Black Granite"}/>
       <ProductCard imageUrl={"/rajasthanblack.jpg"} title={"Rajasthan Black Granite"}/>
+      <ProductCard imageUrl={"/cataisebrown.jpg"} title={"Cataise Brown Granite"}/>
+      <ProductCard imageUrl={"/markinoblack.jpg"} title={"Markino Black Granite"}/>
+      <ProductCard imageUrl={"/paradisoored.jpg"} title={"Paradiso-O-Red Granite"}/>
+      <ProductCard imageUrl={"/pwhite.jpg"} title={"P White Granite"}/>
+      <ProductCard imageUrl={"/rblack.jpg"} title={"R Black Granite"}/>
+      <ProductCard imageUrl={"/tigerbrownmulti.jpg"} title={"Tiger Brown Multi Granite"}/>
     </div>
     <h1 className='text-4xl text-blue-700 text-center  mt-10 font-extrabold'>Marble</h1>
     <div className=' flex flex-wrap mt-5 justify-center'>
