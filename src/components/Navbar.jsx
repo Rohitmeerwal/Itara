@@ -11,7 +11,6 @@ import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import LightModeRoundedIcon from "@mui/icons-material/LightModeRounded";
 import { useEffect, useRef, useState } from "react";
 import { useTheme } from "next-themes";
-import { light } from "@mui/material/styles/createPalette";
 import { MapOutlined, WhatsApp } from "@mui/icons-material";
 import { MailOutline } from "@mui/icons-material";
 
