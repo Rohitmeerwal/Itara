@@ -5,6 +5,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import Link from "next/link";
 import { MailOutlined } from "@mui/icons-material";
 import { useTheme } from "next-themes"; // Import useTheme hook
+import { WhatsApp } from "@mui/icons-material";
 
 // Define Footer component
 const Footer = () => {
@@ -30,8 +31,8 @@ const Footer = () => {
               projects.
             </p>
             <div className="flex mt-8 space-x-6">
-              <a href="/" target="_blank">
-                <FacebookOutlinedIcon className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
+              <a href="https://wa.me/+918126111553" target="_blank">
+                <WhatsApp className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
               </a>
               <a href="mailto:itaraindia@gmail.com">
                 <MailOutlined className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
@@ -94,29 +95,7 @@ const Footer = () => {
               </nav>
             </div>
             {/* Legal */}
-            <div>
-              <p className="font-medium">Legal</p>
-              <nav className="flex flex-col mt-4 space-y-2 text-sm ">
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Privacy Policy
-                </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Terms &amp; Conditions
-                </Link>
-                <Link
-                  href="/"
-                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
-                >
-                  Returns Policy
-                </Link>
-              </nav>
-            </div>
+            
           </div>
         </div>
         {/* Copyright */}
