@@ -6,7 +6,7 @@ const ProductCard = ({ imageUrl, title }) => {
       <div className="aspect-w-9 aspect-h-16 relative">
         <img className="object-cover object-center w-full h-full" src={imageUrl} alt="Card" style={{ width: '400px', height: '400px' }} />
         <div className="absolute inset-0 bg-black opacity-0 hover:opacity-60 transition-opacity flex justify-center items-center">
-          <a href="tel:+1234567890" className="text-white text-lg">Enquire Now</a>
+          <a href="tel:+16128768567" className="text-white text-lg">Enquire Now</a>
         </div>
       </div>
       <div className="px-6 py-4 absolute bottom-0 left-0 w-full">
