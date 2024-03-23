@@ -12,6 +12,8 @@ import LightModeRoundedIcon from "@mui/icons-material/LightModeRounded";
 import { useEffect, useRef, useState } from "react";
 import { useTheme } from "next-themes";
 import { light } from "@mui/material/styles/createPalette";
+import { MapOutlined, WhatsApp } from "@mui/icons-material";
+import { MailOutline } from "@mui/icons-material";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -69,7 +71,7 @@ const Navbar = () => {
               className={`${
                 selectedItem === "Home" ? "text-rose-600" : ""
               } capitalize border-b py-4 md:border-none md:py-0 hover:text-rose-600`}
-              onClick={() => setSelectedItem("Home")}
+              onClick={() => {setSelectedItem("Home"),  setToggleMenu(false)}}
             >
               <Link href="/">Home</Link>
             </li>
@@ -78,7 +80,7 @@ const Navbar = () => {
               className={`${
                 selectedItem === "Products" ? "text-rose-600" : ""
               } capitalize border-b py-4 md:border-none md:py-0 hover:text-rose-600`}
-              onClick={() => setSelectedItem("Products")}
+              onClick={() => {setSelectedItem("Products"), setToggleMenu(false)}}
             >
               <Link href="/products">Products</Link>
             </li>
@@ -87,7 +89,7 @@ const Navbar = () => {
               className={`${
                 selectedItem === "Contact" ? "text-rose-600" : ""
               } capitalize border-b py-4 md:border-none md:py-0 hover:text-rose-600`}
-              onClick={() => setSelectedItem("Contact")}
+              onClick={() => {setSelectedItem("Contact"), setToggleMenu(false)}}
             >
               <Link href="/contact">Contact</Link>
             </li>
@@ -96,22 +98,22 @@ const Navbar = () => {
               className={`${
                 selectedItem === "About" ? "text-rose-600" : ""
               } capitalize border-b py-4 md:border-none md:py-0 hover:text-rose-600`}
-              onClick={() => setSelectedItem("About")}
+              onClick={() => {setSelectedItem("About"), setToggleMenu(false)}}
             >
               <Link href="/about">About</Link>
             </li>
 
             <div className="md:hidden mx-auto absolute bottom-16 left-1/2 -translate-x-1/2 flex gap-3">
-              <Link href="/" target="_blank">
-                <FacebookOutlinedIcon className="cursor-pointer hover:text-rose-600 text-xl" />
+              <Link href="https://maps.app.goo.gl/AsbPyZowPmRNXnbq9">
+                <MapOutlined className="cursor-pointer hover:text-rose-600 text-xl" />
               </Link>
-              <Link target="_blank" href={"/"}>
-                <LinkedInIcon className="cursor-pointer hover:text-rose-600 text-xl" />
+              <Link  href="mailto:itaraindia@gmail.com">
+                <MailOutline className="cursor-pointer hover:text-rose-600 text-xl" />
               </Link>
-              <Link target="_blank" href={"/"}>
-                <GitHubIcon className="cursor-pointer hover:text-rose-600 text-xl" />
+              <Link  href="https://wa.me/+918126111553">
+                <WhatsApp className="cursor-pointer hover:text-rose-600 text-xl" />
               </Link>
-              <Link target="_blank" href={"/"}>
+              <Link  href="https://www.instagram.com/itaraindia/">
                 <InstagramIcon className="cursor-pointer hover:text-rose-600 text-xl" />
               </Link>
             </div>
