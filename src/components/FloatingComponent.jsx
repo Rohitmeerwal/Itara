@@ -38,7 +38,7 @@ export default function FloatingComponent() {
         </button>
 
         <button className="flex bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-2 px-4 md:py-3 md:px-6 rounded focus:outline-none focus:shadow-outline gap-1 justify-between items-center shadow-lg">
-          <a href="tel:+918126111553" className="flex items-center">
+          <a href="tel:+16128768567" className="flex items-center">
             <div className="inline-block rotate-90 mt-1">
               <FaPhone className="mr-2" />
             </div>
