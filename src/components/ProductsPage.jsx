@@ -32,7 +32,7 @@ export default function ProductsPage() {
     <div className=' flex flex-wrap mt-5 justify-center'>
       <ProductCardd imageUrl={"/aarnawhitemarble.jpg"} title={"Aarna White Marble"}/>
       <ProductCardd imageUrl={"/agariyawhitemarble.jpg"} title={"Agariya White Marble"}/>
-      <ProductCardd imageUrl={"/brownmarble.jpg"} title={"Brown Marble"}/>
+      <ProductCard imageUrl={"/brownmarble.jpg"} title={"Brown Marble"}/>
       <ProductCardd imageUrl={"/dharmetawhitemarble.jpg"} title={"Dharmeta White Marble"}/>
       <ProductCardd imageUrl={"/dolomitewhitemarble.jpg"} title={"Dolomite White Marble"}/>
       <ProductCardd imageUrl={"/makranaalbetabrownmarble.jpg"} title={"Makrana Albeta Brown Marble"}/>
