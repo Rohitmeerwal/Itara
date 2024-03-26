@@ -1,6 +1,7 @@
 import React from 'react'
 import ProductCard from './ProductCard'
 import Image from 'next/image'
+import ProductCardd from './ProductCardd'
 
 export default function ProductsPage() {
   return (
@@ -29,16 +30,16 @@ export default function ProductsPage() {
     <h1 className='text-4xl text-white shadow-lg py-5 text-center mt-10 font-extrabold' style={{ backgroundImage: 'linear-gradient(to right, #ff0000, #ff00ff)' }}>Marble</h1>
 
     <div className=' flex flex-wrap mt-5 justify-center'>
-      <ProductCard imageUrl={"/aarnawhitemarble.jpg"} title={"Aarna White Marble"}/>
-      <ProductCard imageUrl={"/agariyawhitemarble.jpg"} title={"Agariya White Marble"}/>
-      <ProductCard imageUrl={"/brownmarble.jpg"} title={"Brown Marble"}/>
-      <ProductCard imageUrl={"/dharmetawhitemarble.jpg"} title={"Dharmeta White Marble"}/>
-      <ProductCard imageUrl={"/dolomitewhitemarble.jpg"} title={"Dolomite White Marble"}/>
-      <ProductCard imageUrl={"/makranaalbetabrownmarble.jpg"} title={"Makrana Albeta Brown Marble"}/>
-      <ProductCard imageUrl={"/makranawhitemarble.jpg"} title={"Makrana White Marble"}/>
-      <ProductCard imageUrl={"/morwadwhitemarble.jpg"} title={"Morwad White Marble"}/>
-      <ProductCard imageUrl={"/vietnamwhitemarble.jpg"} title={"Vietnam White Marble"}/>
-      <ProductCard imageUrl={"/wonderwhite marble.jpg"} title={"Wonder White Marble"}/>
+      <ProductCardd imageUrl={"/aarnawhitemarble.jpg"} title={"Aarna White Marble"}/>
+      <ProductCardd imageUrl={"/agariyawhitemarble.jpg"} title={"Agariya White Marble"}/>
+      <ProductCardd imageUrl={"/brownmarble.jpg"} title={"Brown Marble"}/>
+      <ProductCardd imageUrl={"/dharmetawhitemarble.jpg"} title={"Dharmeta White Marble"}/>
+      <ProductCardd imageUrl={"/dolomitewhitemarble.jpg"} title={"Dolomite White Marble"}/>
+      <ProductCardd imageUrl={"/makranaalbetabrownmarble.jpg"} title={"Makrana Albeta Brown Marble"}/>
+      <ProductCardd imageUrl={"/makranawhitemarble.jpg"} title={"Makrana White Marble"}/>
+      <ProductCardd imageUrl={"/morwadwhitemarble.jpg"} title={"Morwad White Marble"}/>
+      <ProductCardd imageUrl={"/vietnamwhitemarble.jpg"} title={"Vietnam White Marble"}/>
+      <ProductCardd imageUrl={"/wonderwhite marble.jpg"} title={"Wonder White Marble"}/>
     </div>
   </div>
   )

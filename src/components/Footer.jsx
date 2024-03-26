@@ -1,6 +1,4 @@
-// Import necessary icons and components
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
+
 import InstagramIcon from "@mui/icons-material/Instagram";
 import Link from "next/link";
 import { MailOutlined } from "@mui/icons-material";
