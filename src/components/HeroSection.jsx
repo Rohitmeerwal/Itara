@@ -23,8 +23,8 @@ const HeroSection = () => {
       </div>
       <div className="w-full relative">
         <div className="before:w-full before:h-full before:absolute before:top-0 before:left-0 before:bg-[url('/herobg1.png')] before:bg-left-bottom before:bg-contain before:bg-no-repeat before:-z-50 after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-[url('/herobg2.png')] after:bg-right after:bg-contain after:bg-no-repeat after:-z-50">
-          <Image
-            src="https://royalgranitemarbles.com/wp-content/uploads/2017/01/home_banner2.png"
+          <img
+            src="/heroimg.jpg"
             width={1100}
             height={500}
             alt="hero Image"
