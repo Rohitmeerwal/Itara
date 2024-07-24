@@ -102,7 +102,7 @@ const Footer = () => {
         href="https://www.linkedin.com/in/piyush-verma-883a26248/"
         className="mt-2  items-end"
       >
-        Created with ❤️ by Piyush
+        Created with by Piyush
       </a>
     </footer>
   );
