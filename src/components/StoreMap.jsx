@@ -14,7 +14,7 @@ export default function StoreMap() {
           </div>
           <div className="flex items-center gap-2 text-sm">
           <FaPhoneAlt />
-          <a href="tel:+16128768567">+1(612)-876-8567</a>,
+          {/* <a href="tel:+16128768567">+1(612)-876-8567</a>, */}
           <a href="tel:+918126111553">(+91) 8126111553</a>
         </div>
           <div className="flex items-center gap-2 text-sm">
