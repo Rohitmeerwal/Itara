@@ -24,7 +24,7 @@ const Footer = () => {
               )}
             </Link>
             <p className="max-w-xs mt-4 text-sm">
-            ITARA is dedicated and committed to export the Natural Stone with the highest quality standards and providing the best customer services. Established in Agra, city known for Taj Mahal which is one of the most iconic and recognized monuments in the world, known for its marblework. We provide the highest quality of stone meeting the standard of this monuments.
+            ITARA is dedicated and committed to supply the Natural Stone with the highest quality standards and providing the best customer services. Established in Agra, city known for Taj Mahal which is one of the most iconic and recognized monuments in the world, known for its marblework. We provide the highest quality of stone meeting the standard of this monuments.
             </p>
             <div className="flex mt-8 space-x-6">
               <a href="https://wa.me/+918126111553" target="_blank">
